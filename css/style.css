@@ -1,0 +1,670 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins';
+}
+
+.row {
+    margin-bottom:20px;
+    margin-top: 20px;
+}
+
+footer .row {
+    padding-bottom: 15px;
+}
+a.link-branco p{
+    color:white;
+    text-decoration:none;
+}
+
+.row.g-2 {
+    padding: 15px;
+
+}
+
+.g-5,
+.gx-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.conteudo-site .interface .nav-titulo {
+    left: 0;
+    width: 100%;
+    padding: 65px;
+    background-color: #B636BC;
+    text-align: center;
+    color: #FAD1E3;
+    top: 210px;
+}
+
+.crescimento {
+    padding-top: 5%;
+    color: #25026A;
+}
+
+.borda {
+    border-radius: 18px;
+}
+
+.titulo-rosa {
+    font-size: 26px;
+    color: #B636BC;
+    margin-top:20px;
+}
+.titulo-rosa-claro{
+    top:0;
+    font-weight:bold;
+    color:#FAD1E3;
+}
+
+
+
+h1 {
+    color: #25026A;
+    font-weight: 500;
+
+}
+
+h3 {
+    color: #25026A;
+    font-weight: 500;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.fundo-rosa {
+    width: 100%;
+    padding:40px;
+    background-color: #FAD1E3;
+    margin-top:20px;
+    border-radius:18px;
+}
+.fundo-rosa2 {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #FAD1E3;
+    margin-top:20px;
+
+}
+
+
+.fundo-roxo {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #25026A;
+    color:white;
+}
+.button-whatsapp.rosa{
+    background-color:#B636BC;
+}
+.link-produto{
+    color:#25026A;
+    text-decoration: underline;
+    text-align: center;
+}
+.link-produto-roxo{
+    color:#B636BC;
+}
+
+.nossos-fundadores {
+    color: #25026A;
+    font-weight: 500;
+    text-align: center;
+}
+.produto{
+    color: #25026A;
+    font-weight: 500;
+    text-align: left;
+    margin-top: -30px;
+    
+}
+.produto-descricao{
+    margin-bottom:740px;
+}
+.ingredientes-principais{
+    margin-top:-10px;
+
+    font-weight: 600;
+    color: #25026A;
+}
+.hr-rosa{
+    width:90%;
+    opacity:60%;
+    border-top:3px solid #B636BC;
+    
+}
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px;
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+    margin-bottom: 0 !important;
+    font-family: 'Poppins';
+    text-align: justify;
+}
+a.link-branco {
+    text-decoration: none;
+}
+.logo-quem-somos {
+    float: right;
+    margin-right: 10%;
+    top: 400px;
+    width: 460px;
+}
+.composicao-ingredientes{
+    color:black;
+    opacity:100%;
+}
+.button-whatsapp.produto{
+    margin-top:6%;
+}
+
+.logo-saiba-mais {
+    float: right;
+    margin-right: 30%;
+    top: 200px;
+    width: 260px;
+}
+
+.interface {
+
+    margin: 0 auto;
+}
+
+.interface .paragrafo-quem-somos {
+
+    float: left;
+    padding-left: 5%;
+    width: 40%;
+
+}
+
+header {
+    width: 100%;
+    max-width: 1320px;
+    text-align: center;
+    padding: 16px 16px;
+    top: 4;
+    left: 0;
+    transition: .5s;
+    z-index: 10;
+    margin: auto;
+}
+
+header .interface {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* </Estilo do menu dinâmico> */
+header .menu-desktop nav ul {
+    list-style-type: none;
+}
+
+header .menu-desktop nav ul li {
+
+    display: inline-block;
+    margin: 0 13px;
+}
+
+header .menu-desktop nav ul li a{
+
+    color: black;
+    text-decoration: none;
+    display: flex;
+    transition: .2s;
+}
+
+.menu-desktop nav a:hover {
+   color:#B636BC;
+
+}
+
+.button-whatsapp {
+    background-color: #25026A;
+    color: white;
+    border-radius: 7px;
+    padding: 12px 22px 12px 22px;
+    border: none;
+
+
+}
+.button-whatsapp:hover, .botao-submit:hover{
+background-color: #B636BC;
+}
+/* Ocultar menu e mostrar o hambúrguer em telas pequenas */
+.menu-hamburguer {
+    display: none;
+    font-size: 24px;
+    color: #25026A;
+    cursor: pointer;
+}
+
+@media (max-width: 978px) {
+    .logo-quem-somos{
+        width:200px!important;
+    }
+    .mao-na-massa{
+        width:100%;
+        margin:0;
+        padding:20px;
+        text-align: center;
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 120px;
+        right: 0;
+        background-color: #FAD1E3;
+        width: 100%;
+        text-align: center;
+        padding: 30px 30px;
+        z-index:99;
+        color:#fff;
+    }
+.carousel{
+display:none;
+}
+    .menu-hamburguer {
+        display: block;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+    header .menu-desktop nav ul li {
+    display: inline-block;
+    margin: 5px 18px;
+    float: left;
+    text-align: left;
+}
+.logo-saiba-mais{
+    margin-right:0;
+}
+.produto-abobora{
+    max-height: 300px!important;
+    margin-top:0!important;
+    width:auto!important;
+    margin-bottom:15px!important;
+}
+}
+
+.form-contato {
+margin-top:40px;
+margin-bottom:20px;
+}
+
+.navegacao {
+    color: #B636BC;
+
+}
+
+.botao-submit {
+    background-color: #25026A;
+    color: white;
+    border-radius: 7px;
+    padding: 12px 42px 12px 42px;
+    margin-left: 43%;
+    border: none;
+
+}
+
+.bi-whatsapp {
+    margin-right: 7px;
+}
+
+.container {
+    width: 100%;
+    display: block;
+    align-items: flex-start;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 460px;
+    overflow: hidden;
+    background-color: #cdcdcd;
+    margin-bottom:20px;
+}
+
+.carousel-item .slide-image {
+    width: 100%;
+    height: 460px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.carousel-item {
+    position: absolute;
+    width: 100%;
+    height: 460px;
+    border: none;
+    top: 0;
+    left: 100%;
+
+}
+
+.titulo-quem-somos {
+    padding-top: 5%;
+    color: #B636BC;
+}
+
+.carousel-item.active {
+    left: 0;
+    transition: all 5s ease-out;
+}
+
+.carousel-item div {
+    height: 100%;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.fundador .nome-do-fundador {
+    color: #25026A;
+    text-align: center;
+    padding: 20px 10px 10px 10px;
+}
+
+.especialista-chef {
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    background-color: #E4DCF4;
+    color: black;
+    text-align: center;
+}
+
+.footer .nav-footer .logo-footer {
+    padding-left: 5%;
+}
+
+.imagem-produto {
+    width: 260px;
+    height: 200px;
+    margin: auto;
+    border-radius: 18px;
+    object-fit: cover;
+    padding: 8px;
+}
+.produto-abobora{
+    width: 585px;
+    max-height:400px;
+    margin: auto;
+    border-radius: 18px;
+    object-fit: cover;
+    padding: 8px;
+    margin-top: -70px;
+}
+
+.título-produto {
+   
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    padding: 8px;
+    margin-top: .5rem;
+}
+
+.preco-produto {
+
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+input.form-control, textarea.form-control{
+    border:0;
+    background-color: #F3EAF4;
+}
+
+@media (max-width: 744px) {
+
+   
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 120px;
+        right: 0;
+        background-color: #FAD1E3;
+        width: 100%;
+        text-align: center;
+        padding: 30px 30px;
+        z-index:99;
+        color:#fff;
+    }
+.carousel{
+display:none;
+}
+    .menu-hamburguer {
+        display: block;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+    header .menu-desktop nav ul li {
+    display: inline-block;
+    margin: 5px 18px;
+    float: left;
+    text-align: left;
+}
+.logo-saiba-mais{
+    margin-right:0;
+}
+.produto-abobora{
+    max-height: 300px!important;
+    margin-top:0!important;
+    width:auto!important;
+    margin-bottom:15px!important;
+}
+}
+
+.form-contato {
+margin-top:40px;
+margin-bottom:20px;
+}
+
+.navegacao {
+    color: #B636BC;
+
+}
+
+.botao-submit {
+    background-color: #25026A;
+    color: white;
+    border-radius: 7px;
+    padding: 12px 42px 12px 42px;
+    margin-left: 43%;
+    border: none;
+
+}
+
+.bi-whatsapp {
+    margin-right: 7px;
+}
+
+.container {
+    width: 100%;
+    display: block;
+    align-items: flex-start;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 460px;
+    overflow: hidden;
+    background-color: #cdcdcd;
+    margin-bottom:20px;
+}
+
+.carousel-item .slide-image {
+    width: 100%;
+    height: 460px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.carousel-item {
+    position: absolute;
+    width: 100%;
+    height: 460px;
+    border: none;
+    top: 0;
+    left: 100%;
+
+}
+
+.titulo-quem-somos {
+    padding-top: 5%;
+    color: #B636BC;
+}
+
+.carousel-item.active {
+    left: 0;
+    transition: all 5s ease-out;
+}
+
+.carousel-item div {
+    height: 100%;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.fundador .nome-do-fundador {
+    color: #25026A;
+    text-align: center;
+    padding: 20px 10px 10px 10px;
+}
+
+.especialista-chef {
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    background-color: #E4DCF4;
+    color: black;
+    text-align: center;
+}
+
+.footer .nav-footer .logo-footer {
+    padding-left: 5%;
+}
+
+.imagem-produto {
+    width: 260px;
+    height: 200px;
+    margin: auto;
+    border-radius: 18px;
+    object-fit: cover;
+    padding: 8px;
+}
+
+.produto-abobora{
+    width: 585px;
+    max-height:400px;
+    margin: auto;
+    border-radius: 18px;
+    object-fit: cover;
+    padding: 8px;
+    margin-top: -70px;
+}
+
+.título-produto {
+   
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    padding: 8px;
+    margin-top: .5rem;
+}
+
+.preco-produto {
+
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+input.form-control, textarea.form-control{
+    border:0;
+    background-color: #F3EAF4;
+}
